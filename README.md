@@ -1,9 +1,9 @@
-## Bonjour et bienvenue dans notre Auto-école.
+# Bonjour et bienvenue dans notre Auto-école.
 
 **Cette application va gerer la prise de rendez-vous pour les leçons de conduite de nos chers étudiants**
 
 
-# Les informations Business:
+## Les informations Business:
 - Horaires d'ouvertures 9h-14h 15h-19h du Lundi au vendredi.
 - Les horaires weekend sont: 9h-12 15h-17h 
 - Nom des professeurs disponible: Mehdi et Julie (Pour plus de simplicité on considère qu'ils sont tous les deux disponibles tous les jours d'ouverture; oui il sont exploités).
@@ -11,7 +11,7 @@
 - Un seul éleve maximum par session.
 
 
-# Les fonctionalités:
+## Les fonctionalités:
 
 **Planning sur J à J+7 (si on est mardi, on veut le planning jusqu'à mardi prochain)**
 
@@ -19,7 +19,7 @@
 calendar = Calendar.new
 calendar.current_week
 
-=> [
+=>	[
 		{
 			day: '2022-04-04',
 			available_sessions: [...],
@@ -81,7 +81,7 @@ calendar.my_bookings('guy@gmail.com')
 	}
 ```
 
-# TIPS
+## TIPS
 
 **Les objets conseillés :**
 
